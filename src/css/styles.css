@@ -1,0 +1,241 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./vite-promo.css');
+@import url('./badges.css');
+@import url('./back-link.css');
+@import url('./footer.css');
+
+.datetime-picker {
+border: 1px solid #808080;
+transition: border-color 0.3s;
+border-radius: 4px;
+width: 280px;
+height: 40px;
+
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.04em;
+/* color: #2e2f42; */
+background-color: #fafafa;
+}
+
+#datetime-picker:focus {
+  border: 1px solid #4e75ff !important;
+  outline: none !important;
+}
+
+#datetime-picker:hover {
+border-color: #2e2f42 !important;
+}
+
+
+.flatpickr-day.today,
+.flatpickr-day.today.selected {
+  border-color: #4e75ff !important;
+  background: transparent !important;
+  color: #2e2f42 !important;
+}
+
+.flatpickr-day.today .selected {
+  background-color: #4e75ff;
+}
+
+.flatpickr-day.today:not(.selected) {
+  border-color: #fafafa !important;
+}
+
+.flatpickr-day.selected {
+  background: #4e75ff !important;
+  border-color: #4e75ff !important;
+}
+
+
+.button {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 75px;
+height: 40px;
+border: none;
+
+background: #4e75ff;
+
+font-weight: 500;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.button:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  padding-top: 32px;
+  width: 346px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+color: #2e2f42;
+text-transform: uppercase;
+}
+
+
+
+
+/* ======== snackbar =========== */
+
+.form {
+  width: 360px;
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+}
+
+.label-delay { 
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+gap: 8px;
+}
+
+.input-delay {
+  width: 350px;
+border: 1px solid #808080;
+border-radius: 4px;
+height: 40px;
+padding-left: 6px;
+margin-bottom: 16px;
+}
+
+.input-delay:hover {
+  border-color: #000;
+}
+
+.input-delay:focus {
+  border-color: #4e75ff;
+  outline: none;
+}
+
+.fieldset {
+  display: flex;
+  justify-content: space-around;
+width: 332px;
+  border-radius: 4px;
+stroke-width: 1px;
+stroke: #4e75ff;
+
+}
+
+.fieldset-state {
+  font-weight: 400;
+  font-size: 16px;
+  
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  text-align: left;
+}
+
+.fieldset-label {
+  width: 104px;
+  height: 32px;
+
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 8px;
+}
+
+input[type="radio"] {
+  accent-color: #4e75ff;
+}
+
+.snackbar-form-button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+
+  background: #4e75ff;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.snackbar-form-button:hover {
+  background: #6c8cff;
+}
+
+.icon-svg-error {
+  border-bottom: 2px solid #ffbebe !important;
+  border-radius: 4px !important;
+  width: 302px !important;
+  height: 64px;
+ 
+}
+
+.icon-svg-success {
+  border-bottom: 2px solid #b5ea7c !important;
+border-radius: 4px !important;
+width: 383px !important;
+height: 64px;
+}
