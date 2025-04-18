@@ -18,19 +18,19 @@
 @import url('./footer.css');
 
 .datetime-picker {
-border: 1px solid #808080;
-transition: border-color 0.3s;
-border-radius: 4px;
-width: 280px;
-height: 40px;
+  border: 1px solid #808080;
+  transition: border-color 0.3s;
+  border-radius: 4px;
+  width: 280px;
+  height: 40px;
 
-font-weight: 400;
-font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
 
-line-height: 1.5;
-letter-spacing: 0.04em;
-/* color: #2e2f42; */
-background-color: #fafafa;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  /* color: #2e2f42; */
+  background-color: #fafafa;
 }
 
 #datetime-picker:focus {
@@ -39,7 +39,7 @@ background-color: #fafafa;
 }
 
 #datetime-picker:hover {
-border-color: #2e2f42 !important;
+  border-color: #2e2f42 !important;
 }
 
 
@@ -66,19 +66,19 @@ border-color: #2e2f42 !important;
 
 .button {
   border-radius: 8px;
-padding: 8px 16px;
-width: 75px;
-height: 40px;
-border: none;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
 
-background: #4e75ff;
+  background: #4e75ff;
 
-font-weight: 500;
-font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
 
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .button:disabled {
@@ -108,20 +108,20 @@ color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 40px;
-  
+
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
 
 .label {
-font-family: "Montserrat", sans-serif;
-font-weight: 400;
-font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 
-line-height: 1.5;
-color: #2e2f42;
-text-transform: uppercase;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
 }
 
 
@@ -132,33 +132,33 @@ text-transform: uppercase;
 .form {
   width: 360px;
   display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.label-delay { 
-font-weight: 400;
-font-size: 16px;
+.label-delay {
+  font-weight: 400;
+  font-size: 16px;
 
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 
-display: flex;
-align-items: flex-start;
-flex-direction: column;
-gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .input-delay {
   width: 350px;
-border: 1px solid #808080;
-border-radius: 4px;
-height: 40px;
-padding-left: 6px;
-margin-bottom: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 6px;
+  margin-bottom: 16px;
 }
 
 .input-delay:hover {
@@ -173,17 +173,17 @@ margin-bottom: 16px;
 .fieldset {
   display: flex;
   justify-content: space-around;
-width: 332px;
+  width: 332px;
   border-radius: 4px;
-stroke-width: 1px;
-stroke: #4e75ff;
+  stroke-width: 1px;
+  stroke: #4e75ff;
 
 }
 
 .fieldset-state {
   font-weight: 400;
   font-size: 16px;
-  
+
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
@@ -195,10 +195,10 @@ stroke: #4e75ff;
   height: 32px;
 
   display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
 }
 
 input[type="radio"] {
@@ -214,11 +214,11 @@ input[type="radio"] {
 
   background: #4e75ff;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .snackbar-form-button:hover {
@@ -230,12 +230,12 @@ color: #fff;
   border-radius: 4px !important;
   width: 302px !important;
   height: 64px;
- 
+
 }
 
 .icon-svg-success {
   border-bottom: 2px solid #b5ea7c !important;
-border-radius: 4px !important;
-width: 383px !important;
-height: 64px;
+  border-radius: 4px !important;
+  width: 383px !important;
+  height: 64px;
 }
